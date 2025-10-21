@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.title{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+.clock-disp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.clock-disp h1{
+    margin: 20px 0 10px;
+}
+.clock-disp div{
+    border: 1px solid rgba(128, 128, 128, 0.466);
+    color: rgba(255, 255, 255, 0.795);
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 40px;
+    border-radius: 5px;
+    background-color: rgba(104, 104, 104, 0.192);
+}
+#greet{
+    font-size: 40px;
+    color: white;
+}
